@@ -1,0 +1,37 @@
+
+*#
+ssl
+.idea
+nbproject
+public/uploads/*
+!public/uploads/.gitkeep
+
+############################
+# Node.js
+############################
+
+lib-cov
+lcov.info
+pids
+logs
+results
+node_modules
+.node_history
+
+############################
+# Tests
+############################
+
+testApp
+coverage
+
+############################
+# Strapi
+############################
+
+.env
+license.txt
+exports
+*.cache
+build
+.strapi-updater.json
